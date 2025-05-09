@@ -1,6 +1,46 @@
+
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-02{
+    color:#474747 ;
+}
+
 h2{
     color: rgb(59, 162, 206);
 }
 
+nev{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-x = 2;
+.nev-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+}
